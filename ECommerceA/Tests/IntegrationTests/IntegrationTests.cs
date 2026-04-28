@@ -1,0 +1,1 @@
+using NUnit.Framework; public class IntegrationTests { [Test] public void Test_Order_Process() { var cart = new Cart(); cart.Add(new Product { Name = "Test", Price = 10 }); var service = new OrderService(); Assert.IsTrue(service.Checkout(cart)); } }

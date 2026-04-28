@@ -1,0 +1,1 @@
+using System.Collections.Generic; public class Cart { public List<Product> Products = new List<Product>(); public void Add(Product p) { Products.Add(p); } }

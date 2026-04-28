@@ -1,0 +1,1 @@
+public class OrderService { public bool Checkout(Cart cart) { return cart.Products.Count > 0; } }

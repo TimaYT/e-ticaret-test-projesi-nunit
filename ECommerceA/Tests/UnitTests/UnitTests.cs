@@ -1,0 +1,1 @@
+using NUnit.Framework; public class UnitTests { [Test] public void Test_Add_Product() { var cart = new Cart(); cart.Add(new Product { Name = "Test", Price = 10 }); Assert.AreEqual(1, cart.Products.Count); } }
